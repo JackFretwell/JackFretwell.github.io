@@ -1,0 +1,104 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 224, 202);
+    font-family: "Monospace", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;    
+    border-radius: 25px;
+    margin:10px;
+    padding-top:10px;
+    background-color: rgb(158, 216, 161);
+}
+
+.logo{
+    padding-left:50px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.header-links{
+    padding-right: 30px;
+    display:flex;
+    align-items: center;
+    gap:40px;
+}
+
+.content-wrapper{
+    padding-top:180px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technical-info{
+    display:flex;
+    gap:4px;
+    align-items: start;
+    flex-direction: column;
+    padding:15px;
+    background-color: rgb(104, 216, 132);
+    border-radius: 25px;
+    width:833px;
+}
+
+.top-line{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.hero{
+    display:flex;
+    gap:4px;
+    align-items: start;
+    flex-direction: column;
+    padding:15px;
+    background-color: rgb(142, 211, 159);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 833px;
+}
+
+.sidebar-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65px;
+}
+
+.sidebar-left a{
+    display: inline-block;
+    margin: 5px;
+}
+
+.sidebar-left img{
+    height: auto;
+    width: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.skills{
+    width:833px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.skills h3{
+    text-decoration: underline;
+}
+
+.skills div{
+    display:flex;
+    flex-direction: column;
+}
