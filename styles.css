@@ -38,7 +38,7 @@ head a:visited{
 }
 
 .content-wrapper{
-    padding-top:125px;
+    padding-top:70px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -131,4 +131,91 @@ h1{
 .skills div{
     flex:1;
     flex-direction: column;
+}
+
+.cont-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.project-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(142, 211, 159);
+    border-radius: 25px;
+    width:85%;
+    max-width: 100%;
+    padding:10px;
+
+}
+
+.project-section h1{
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.projects-box{
+    display:flex;
+    background-color:rgb(202, 224, 202);
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    justify-content: center;
+    padding:20px;
+    margin: 20px;
+    
+}
+
+.phonetic-alph-project{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phonetic-alph-project p{
+    max-width: 400px;
+}
+
+.link-box{
+    color: black;
+    text-decoration: none;
+    width:200px;
+}
+.link-box:visited{
+    color:black;
+    text-decoration: none;
+}
+.video{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+}
+
+.info-wrapper{
+    border-radius:25px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(142, 211, 159);
+    max-width: 100%;
+    width:80%;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
 }
